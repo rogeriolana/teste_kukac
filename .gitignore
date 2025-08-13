@@ -1,0 +1,50 @@
+# --- Node / npm ---
+node_modules/
+.npm/
+.cache/
+.eslintcache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Cypress ---
+# Keep tests, fixtures and support; ignore artifacts
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
+cypress/downloads/
+# If you store secrets here, keep it ignored
+cypress.env.json
+
+# --- Reports / Coverage ---
+coverage/
+.nyc_output/
+mochawesome-report/
+mochawesome.json
+junit*.xml
+reports/
+
+# --- Build outputs (if any) ---
+dist/
+build/
+tmp/
+temp/
+
+# --- Env files ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Editor / OS files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Misc ---
+*.swp
+*.swo
